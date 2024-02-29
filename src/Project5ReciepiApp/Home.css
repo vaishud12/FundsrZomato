@@ -1,0 +1,48 @@
+
+.Homediv{
+    height: 400px;
+    width: 100%;  
+}
+
+.HomeSec{
+    margin-top: 20px;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+    margin-left: 10px;
+    text-align: center;
+    gap:10px;
+    margin-bottom: 40px;
+}
+
+.img-sec{
+   margin-top: 10px;
+}
+
+.img-sec p{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.img-res{
+    width: 300px;
+}
+
+#cat-head{
+    color: black;
+    padding: 20px;
+}
+
+.HomeSec::-webkit-scrollbar{
+    display: none;
+}
+
+@media screen and (maxwidth:300px) {
+    .HomeSec{
+        margin: 0;
+    }
+    
+}
